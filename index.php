@@ -72,7 +72,9 @@ mysqli_close($connect);
 <?php require_once 'components/boot.php'?>
 <style type="text/css">
 body{
-    background:url(animals/pictures/laklak.jpeg);  
+    background:url(animals/pictures/laklak.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%auto;
 }
 
 </style>
@@ -137,7 +139,7 @@ body{
 
 
 
-    <footer class="text-center text-white " style="background-color: #2E303C;width:100%;margin-top:32vh;">
+    <footer class="text-center text-white " style="background-color: #2E303C;width:100%;margin-top:48vh;">
        <div class="text-center p-3" style="background-color: #2E303C;">
             © 2021 Copyright:
         <p class="text-white" >Codefactory (classwork-CodeReview)</p>
